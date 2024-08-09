@@ -1,0 +1,84 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-inline: 0;
+  margin-block: 0;
+}
+html {
+  font-size: 87.5%;
+  font-family: "Poppins", sans-serif;
+  color-scheme: dark light;
+}
+body {
+  min-height: 100vh;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+.wrapper {
+  width: 100vw;
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+}
+.card {
+  max-width: 600px;
+  height: max-content;
+  width: 100%;
+  margin-inline: auto;
+  border: 1px solid coral;
+  border-radius: 0.5em;
+  padding: 2em;
+}
+.card h1 {
+  margin-bottom: 1em;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: coral;
+}
+.card form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
+}
+.card form select {
+  padding: 0.5em;
+  border-radius: 0.5em;
+  color: coral;
+}
+.card form input {
+  padding: 0.5em 1em;
+  background-color: coral;
+  color: white;
+  outline: 0;
+  border: none;
+  border-radius: 0.5em;
+  font-weight: bold;
+  cursor: pointer;
+}
+.result {
+  text-align: left;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-top: 1em;
+}

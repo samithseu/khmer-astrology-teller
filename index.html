@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="card">
+        <h1>សូមជ្រើសរើស ឆ្នាំ និង ខែ ដើម្បីរកជោគជតា</h1>
+        <form action="#">
+          <select required name="year" id="year">
+            <option value="" selected hidden disabled>ជ្រើសរើស ឆ្នាំ...</option>
+            <option value="1">ជូត</option>
+            <option value="2">ឆ្លូវ</option>
+            <option value="3">ខាល</option>
+            <option value="4">ថោះ</option>
+            <option value="5">រោង</option>
+            <option value="6">ម្សាញ់</option>
+            <option value="7">មមី</option>
+            <option value="8">មមែ</option>
+            <option value="9">វក</option>
+            <option value="10">រការ</option>
+            <option value="11">ចរ</option>
+            <option value="12">កុរ</option>
+          </select>
+
+          <select required name="month" id="month">
+            <option value="" selected hidden disabled>ជ្រើសរើស ខែ...</option>
+            <option value="1">មករា</option>
+            <option value="2">កុម្ភៈ</option>
+            <option value="3">មិនា</option>
+            <option value="4">មេសា</option>
+            <option value="5">ឧសភា</option>
+            <option value="6">មិថុនា</option>
+            <option value="7">កក្កដា</option>
+            <option value="8">សីហា</option>
+            <option value="9">កញ្ញា</option>
+            <option value="10">តុលា</option>
+            <option value="11">វិច្ឆិកា</option>
+            <option value="12">ធ្នូ</option>
+          </select>
+
+          <input type="submit" value="ស្វែងរក!" />
+        </form>
+        <p class="result">លទ្ធផល ៖ មិនទាន់បានបញ្ចូល!</p>
+      </div>
+    </div>
+  </body>
+</html>
